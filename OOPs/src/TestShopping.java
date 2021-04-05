@@ -12,7 +12,7 @@ public class TestShopping {
 		cart.addProdcut(new Product("Apple Macbook pro 13", 125000));
 		cart.addProdcut(new Product("Apple earphones", 29000));
 		cart.addProdcut(new Product("Nothing", 0));
-		cart.checkout();
+	//	cart.checkout();
 		cart.checkout("HOLI200");
 		cart.checkout("APRIL150");
 	}
